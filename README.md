@@ -8,9 +8,8 @@ In order to prepare for this, they would like to identify employees who are most
 In order to identify these populations of interest within their workforce, we can query the various databases that the company has with relevant information about each employee. These queries will help to narrow down the large sets of data to target the employees who meet the desired criteria for their retirement package and mentorship plans.
 
 ### Resources
-
-    - Data: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
-    - Software: pgAdmin4 v6.12, PostgreSQL v11.17, quickdatabasediagrams.com
+- Data: departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
+- Software: pgAdmin4 v6.12, PostgreSQL v11.17, quickdatabasediagrams.com
 
 ## Results
 
