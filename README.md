@@ -18,19 +18,19 @@ Throughout the course of this module, we constructed an entity relationship diag
 
 ![retirement_titles](https://github.com/tfish110/Pewlett-Hackard-Analysis/blob/main/resources/retirement_titles_head.png)
 
-    - This image contains the first several rows of the first table we derived. It contained all employees in the database who were born between 1952-1955, listed the titles the held, and the dates they held those titles. This table was not sufficient for two main reasons. First, it contained employees born in those years who were no longer working at Pewlett-Hackard. Second, many employees had multiple entries in this table, as they have held multiple titles during their time with the company and each of them was listed in its own row.
+- This image contains the first several rows of the first table we derived. It contained all employees in the database who were born between 1952-1955, listed the titles the held, and the dates they held those titles. This table was not sufficient for two main reasons. First, it contained employees born in those years who were no longer working at Pewlett-Hackard. Second, many employees had multiple entries in this table, as they have held multiple titles during their time with the company and each of them was listed in its own row.
 
 ![unique_titles](https://github.com/tfish110/Pewlett-Hackard-Analysis/blob/main/resources/unique_titles_head.png)
 
-    - This is an image of the first several rows of the table we derived from narrowing the scope of the table above. In it, we eliminated all employees no longer with the company. We also eliminated duplicate entries for current employees leaving only their current title.
+- This is an image of the first several rows of the table we derived from narrowing the scope of the table above. In it, we eliminated all employees no longer with the company. We also eliminated duplicate entries for current employees leaving only their current title.
 
 ![retiring_titles](https://github.com/tfish110/Pewlett-Hackard-Analysis/blob/main/resources/retiring_titles.png)
 
-    - While the second table did narrow down the data to only what we needed to know about current employees approaching retirement, it still contained several thousand rows of data since it is such a large company. So, we were able to use a "count" function to determine how many employees per title fall into the retirement age bracket that Pewlett-Hackard is interested in.
+- While the second table did narrow down the data to only what we needed to know about current employees approaching retirement, it still contained several thousand rows of data since it is such a large company. So, we were able to use a "count" function to determine how many employees per title fall into the retirement age bracket that Pewlett-Hackard is interested in.
 
 ![mentorship_eligibility](https://github.com/tfish110/Pewlett-Hackard-Analysis/blob/main/resources/mentorship_eligibility_head.png)
 
-    - The final table went back to deriving a table from the raw dataset. This time, we built a table containing only current employees born in 1965 and their current titles. As they are about 10-13 years younger than the set of employees being targeted for retirement age, they would be a good place to start looking for the mentees for the mentorship program to step up and fill the leadership positions of those getting ready to retire.
+- The final table went back to deriving a table from the raw dataset. This time, we built a table containing only current employees born in 1965 and their current titles. As they are about 10-13 years younger than the set of employees being targeted for retirement age, they would be a good place to start looking for the mentees for the mentorship program to step up and fill the leadership positions of those getting ready to retire.
 
 ## Summary
 
